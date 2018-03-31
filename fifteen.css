@@ -1,0 +1,38 @@
+/*
+CSE 154 Homework 4 Section AE
+Akash Rama- This page has the CSS elements for a fifteen tiles
+It formats all the elements from the HTML page
+*/
+
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+    margin: 0px;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.pieces {
+    width : 90px;
+    height : 90px;
+    font-size: 40pt;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-image: url("background.jpg");
+    background-size: 400px 400px
+}
+
+.red:hover {
+    color: red;
+    border-color: red;
+    border-width: 5px;
+    cursor: pointer;
+}
