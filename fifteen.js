@@ -1,5 +1,4 @@
 /*
-CSE 154 Homework 4 Section AE
 Akash Rama- This page has the JavaScript elements for fifteen tiles which is 
 a classic game
 */
